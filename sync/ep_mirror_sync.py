@@ -151,14 +151,25 @@ def main():
                 items.extend(preserved)
                 C.warn(f"{len(preserved)} baris lama dipertahankan untuk klien gagal: {sorted(failed)}")
         tz = timezone(timedelta(hours=7))  # WIB
-        payload = {
-            "generated_at": datetime.now(tz).isoformat(timespec="seconds"),
-            "clients": {c["name"]: f"https://docs.google.com/spreadsheets/d/{c['sheet']}/edit"
-                        for c in cfg["clients"]},
-            "items": items,
-        }
-        with open(out, "w", encoding="utf-8") as fh:
-            json.dump(payload, fh, ensure_ascii=False, indent=1)
+        new_clients = {c["name"]: f"https://docs.google.com/spreadsheets/d/{c['sheet']}/edit"
+                       for c in cfg["clients"]}
+        # Isi tidak berubah → jangan tulis ulang (generated_at = kapan data terakhir
+        # berubah), supaya cron 5 menit tidak bikin commit + deploy kosong.
+        try:
+            with open(out, encoding="utf-8") as fh:
+                prev = json.load(fh)
+        except Exception:
+            prev = {}
+        if prev.get("items") == items and prev.get("clients") == new_clients:
+            print("data.json: tidak ada perubahan isi")
+        else:
+            payload = {
+                "generated_at": datetime.now(tz).isoformat(timespec="seconds"),
+                "clients": new_clients,
+                "items": items,
+            }
+            with open(out, "w", encoding="utf-8") as fh:
+                json.dump(payload, fh, ensure_ascii=False, indent=1)
 
     print("=== STAT PER KLIEN ===")
     for name, n in stats:

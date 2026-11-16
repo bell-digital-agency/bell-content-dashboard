@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:00:37+07:00",
+ "generated_at": "2026-11-16T17:48:38+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -316,7 +316,7 @@
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-17",
    "status": "Asset Ready",
-   "tipe": "Feed - Carousel Post",
+   "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
    "judul": "Soup Buntut Andaliman",
    "link": "",
@@ -530,18 +530,6 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-07",
-   "status": "Uploaded",
-   "tipe": "Reels Videos",
-   "platform": "Instagram",
-   "judul": "Bola Ubi Mikkro",
-   "link": "https://drive.google.com/file/d/1dx9ceRuoyuPM0HDM3pNQSagRV19uUJxm/view?usp=drive_link",
-   "cover": "",
-   "caption": "Guess who's back on the menu? 👀\n\nYour favorite Bola Ubi is back at Mikkro! \n\nCrispy on the outside, chewy on the inside, and just the right kind of snack to make your coffee break a little better.\n\nBeen missing these? Come get your fix!\n—\n\nBola Ubi kesayangan kalian sekarang hadir lagi di Mikkro! 👀\n\nRenyah di luar, kenyal di dalam, dan cocok banget buat nemenin coffee break atau sekadar ngemil santai.\n\nUdah kangen? Yuk, mampir dan nikmati lagi!\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #BolaUbi #SnackJakarta #CafeJakarta",
-   "tab": "26 Nov"
-  },
-  {
-   "klien": "Mikkro Coffee",
    "tanggal": "2026-11-10",
    "status": "Uploaded",
    "tipe": "Feed - Single Post",
@@ -550,42 +538,6 @@
    "link": "https://drive.google.com/file/d/1r0V-hMEomO7s-YGGfx36Xn6X2Qrr4SFm/view?usp=drive_link",
    "cover": "",
    "caption": "From your first coffee to your last catch-up. ☕\n\nWhether it's an early morning boost or a late-night conversation, Mikkro is ready to be part of your day. \n\nDrop by whenever you feel like it!\n\n—\n\nMikkro siap nemenin harimu, dari pagi sampai malam. ☕\n\nMau mulai hari dengan secangkir kopi atau menghabiskan malam dengan obrolan santai, selalu ada tempat buat kamu di Mikkro. \n\nMampir kapan pun kamu mau!\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #CoffeeShopJakarta #JakartaCafe",
-   "tab": "26 Nov"
-  },
-  {
-   "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-10",
-   "status": "Uploaded",
-   "tipe": "Story",
-   "platform": "Instagram",
-   "judul": "[Ken]\nHari Pahlawan",
-   "link": "https://drive.google.com/file/d/1SkHF1g8PgPsKC0T07X8hJ1gaW9X_Aqm8/view?usp=drive_link",
-   "cover": "",
-   "caption": "",
-   "tab": "26 Nov"
-  },
-  {
-   "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-14",
-   "status": "Uploaded",
-   "tipe": "Reels Videos",
-   "platform": "Instagram",
-   "judul": "Soup Buntut Andaliman",
-   "link": "https://drive.google.com/file/d/1O3KW-Q87peiNP-VFHcxNRCix1HPwN7YD/view?usp=drive_link",
-   "cover": "",
-   "caption": "There’s always more to discover in local flavours! 🍲\n\nThis time, we’re bringing you Soup Buntut Andaliman at Mikkro. \n\nA comforting local favourite with a distinctive touch. Come by and savour the goodness!\n\n—\n\nEksplorasi cita rasa lokal memang nggak ada habisnya! 🍲\n\nKali ini, kamu bisa menikmati Soup Buntut Andaliman di Mikkro. \n\nSajian hangat dengan cita rasa khas yang siap memanjakan lidah. \n\nYuk, mampir dan cobain kenikmatannya!\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #SoupBuntut #KulinerJakarta #CafeJakarta",
-   "tab": "26 Nov"
-  },
-  {
-   "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-15",
-   "status": "Uploaded",
-   "tipe": "Threads",
-   "platform": "Threads",
-   "judul": "",
-   "link": "",
-   "cover": "",
-   "caption": "",
    "tab": "26 Nov"
   },
   {
@@ -602,7 +554,31 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-16",
+   "tanggal": "2026-11-07",
+   "status": "Uploaded",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Bola Ubi Mikkro",
+   "link": "https://drive.google.com/file/d/1dx9ceRuoyuPM0HDM3pNQSagRV19uUJxm/view?usp=drive_link",
+   "cover": "",
+   "caption": "Guess who's back on the menu? 👀\n\nYour favorite Bola Ubi is back at Mikkro! \n\nCrispy on the outside, chewy on the inside, and just the right kind of snack to make your coffee break a little better.\n\nBeen missing these? Come get your fix!\n—\n\nBola Ubi kesayangan kalian sekarang hadir lagi di Mikkro! 👀\n\nRenyah di luar, kenyal di dalam, dan cocok banget buat nemenin coffee break atau sekadar ngemil santai.\n\nUdah kangen? Yuk, mampir dan nikmati lagi!\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #BolaUbi #SnackJakarta #CafeJakarta",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-14",
+   "status": "Uploaded",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Soup Buntut Andaliman",
+   "link": "https://drive.google.com/file/d/1O3KW-Q87peiNP-VFHcxNRCix1HPwN7YD/view?usp=drive_link",
+   "cover": "",
+   "caption": "There’s always more to discover in local flavours! 🍲\n\nThis time, we’re bringing you Soup Buntut Andaliman at Mikkro. \n\nA comforting local favourite with a distinctive touch. Come by and savour the goodness!\n\n—\n\nEksplorasi cita rasa lokal memang nggak ada habisnya! 🍲\n\nKali ini, kamu bisa menikmati Soup Buntut Andaliman di Mikkro. \n\nSajian hangat dengan cita rasa khas yang siap memanjakan lidah. \n\nYuk, mampir dan cobain kenikmatannya!\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #SoupBuntut #KulinerJakarta #CafeJakarta",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-20",
    "status": "Asset Ready",
    "tipe": "Reels Videos",
    "platform": "Instagram",
@@ -610,6 +586,30 @@
    "link": "",
    "cover": "",
    "caption": "More than just the ones sitting beside you. 🤎\n\nThey have their own stories, their own battles, and their own busy lives. \n\nYet, they always make time to listen, share, and be there for one another. \n\nHere's to the moments that make every gathering meaningful.\n\n—\n\nLebih dari sekadar mereka yang duduk di sampingmu. 🤎\n\nMereka punya kesibukan, cerita, dan perjuangan masing-masing. \n\nNamun, selalu ada waktu untuk saling mendengarkan, berbagi cerita, dan hadir satu sama lain. \n\nSebab kebersamaan sederhana sering kali jadi momen yang paling berarti.\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #CoffeeAndCompany #JakartaCoffee",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-10",
+   "status": "Uploaded",
+   "tipe": "Story",
+   "platform": "Instagram",
+   "judul": "[Ken]\nHari Pahlawan",
+   "link": "https://drive.google.com/file/d/1SkHF1g8PgPsKC0T07X8hJ1gaW9X_Aqm8/view?usp=drive_link",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-15",
+   "status": "Uploaded",
+   "tipe": "Threads",
+   "platform": "Threads",
+   "judul": "",
+   "link": "",
+   "cover": "",
+   "caption": "",
    "tab": "26 Nov"
   },
   {

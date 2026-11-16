@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:24:37+07:00",
+ "generated_at": "2026-11-16T13:36:37+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -111,7 +111,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-13",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "No Worry SRV 200 MT",
@@ -123,7 +123,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-14",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "SRV 200: Speak Your Noise",
@@ -579,7 +579,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-15",
-   "status": "Asset Ready",
+   "status": "Uploaded",
    "tipe": "Threads",
    "platform": "Threads",
    "judul": "",
@@ -591,7 +591,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-15",
-   "status": "Asset Ready",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "[Ken]\nCroissant Bread Pudding",
@@ -939,7 +939,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-13",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post, TikTok Picture/Design",
    "platform": "Instagram + TikTok",
    "judul": "Motorku X, BeAT — Main Game dan Kumpulkan Poinnya biar dapat potongan di merchant pilihan",
@@ -951,7 +951,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-15",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Umum — Themetastic Hunger Games, motor mana yang bisa survive di Hunger Games",
@@ -1575,7 +1575,7 @@
   {
    "klien": "TikTok Astra",
    "tanggal": "2026-11-13",
-   "status": "Production Process, Client Content Preview",
+   "status": "Uploaded",
    "tipe": "",
    "platform": "TikTok",
    "judul": "[JOG] - Penyebab CVT-Belt Cepat Rusak dan Akibat CVT-Belt nggak Diganti",

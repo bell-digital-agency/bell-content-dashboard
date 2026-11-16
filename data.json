@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:00:38+07:00",
+ "generated_at": "2026-11-16T18:06:40+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -699,7 +699,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-10-22",
-   "status": "Pending",
+   "status": "Pending, Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Mikkro bali",

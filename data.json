@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T11:07:21+07:00",
+ "generated_at": "2026-11-17T11:13:22+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -1659,13 +1659,25 @@
   {
    "klien": "TikTok Astra",
    "tanggal": "2026-11-15",
-   "status": "",
+   "status": "Approved by Client, Ready to Post",
    "tipe": "TikTok Videos",
    "platform": "TikTok",
    "judul": "BeAT Street — [JOG] - KOL Collab - Udin Amstrong - Mantan Preman Malak Buat Ngasih Tahu Anti Theft Alarm",
    "link": "https://drive.google.com/file/d/1LZGRURe8EfmLtnj2dSRVK0AUFKrEjQRF/view?usp=drive_link",
    "cover": "https://drive.google.com/file/d/17COr8qCtyzY2K4Y4Qa2fjBLwZio84we8/view?usp=drive_link",
    "caption": "Dulu malak orang, sekarang malah jagain motor! 😭😂\r\n\r\nUdin Amstrong punya cara unik buat kasih tahu pentingnya fitur Anti Theft Alarm di motor Honda. Emang gimana sih caranya?\n\nSimak videonya sampai habis ya! 😉\r\n\r\n#AstraMotor #AntiTheftAlarm #FiturHonda #MotorHonda #TipsMotor",
+   "tab": "NOV 2026"
+  },
+  {
+   "klien": "TikTok Astra",
+   "tanggal": "2026-11-25",
+   "status": "Pending",
+   "tipe": "TikTok Videos",
+   "platform": "TikTok",
+   "judul": "Genio — [SMG] - Product - 3 Hal yang Bikin New Honda Genio Dinilai sebagai Motor Kalcer Kekinian",
+   "link": "",
+   "cover": "",
+   "caption": "...\n\n#AstraMotor",
    "tab": "NOV 2026"
   },
   {

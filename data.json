@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:29:12+07:00",
+ "generated_at": "2026-11-17T19:35:13+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -315,13 +315,13 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-17",
-   "status": "Asset Ready",
+   "status": "Client Content Preview",
    "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
    "judul": "Soup Buntut Andaliman",
    "link": "https://drive.google.com/drive/folders/1HSM6s4lsJWrVowWARqhv0FGDkOaQCri1?usp=drive_link",
    "cover": "",
-   "caption": "",
+   "caption": "Local flavors, served the Giyanti way. 🍲🌿\n\nOur Soup Buntut Andaliman comes as a complete set: a warm clay pot of soup, oxtail, steamed rice, crackers, and sambal on the side. A touch of andaliman, the citrusy pepper from North Sumatra, gives it a character you won't find in your usual oxtail soup.\n\nA comforting meal, best enjoyed slowly.\n\nHave you tried it yet?\n\n⸻\n\nCita rasa lokal, disajikan ala Giyanti. 🍲🌿\n\nSoup Buntut Andaliman hadir lengkap: sup hangat dalam mangkuk tanah liat, buntut, nasi putih, kerupuk, dan sambal sebagai pelengkap. Sentuhan andaliman, rempah khas Sumatera Utara, bikin rasanya beda dari sup buntut biasanya.\n\nHidangan hangat yang pas dinikmati pelan-pelan.\n\nSudah pernah coba? Yuk, mampir ke Giyanti!\n\n#GiyantiCoffeeRoastery #SoupBuntutAndaliman #CafeMenteng #CafeJakarta #KulinerJakarta",
    "tab": "26 November"
   },
   {
@@ -603,7 +603,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-17",
-   "status": "Asset Ready",
+   "status": "Uploaded, Pending",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Kertas warna anak\"",

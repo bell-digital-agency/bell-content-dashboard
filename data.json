@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:05:53+07:00",
+ "generated_at": "2026-11-18T12:24:52+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -843,7 +843,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-12",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Carousel Post",
    "platform": "Instagram",
    "judul": "3 Kesalahan yang Bikin Es Cepat Cair",
@@ -855,7 +855,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-16",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "TikTok Video",
    "platform": "TikTok",
    "judul": "",
@@ -867,7 +867,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-16",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "",
@@ -1071,7 +1071,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-17",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Scoopy — Honda Scoopy",
@@ -1122,7 +1122,7 @@
    "status": "Production Process",
    "tipe": "Reels IG Videos",
    "platform": "Instagram",
-   "judul": "Umum — Naikin Standar Dua Motor",
+   "judul": "Umum — Kesusahan Naikin Standar Dua Motor",
    "link": "",
    "cover": "",
    "caption": "",
@@ -1767,7 +1767,7 @@
   {
    "klien": "TikTok Astra",
    "tanggal": "2026-11-15",
-   "status": "Approved by Client, Ready to Post",
+   "status": "Approved by Client, Uploaded",
    "tipe": "TikTok Videos",
    "platform": "TikTok",
    "judul": "BeAT Street — [JOG] - KOL Collab - Udin Amstrong - Mantan Preman Malak Buat Ngasih Tahu Anti Theft Alarm",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:48:53+07:00",
+ "generated_at": "2026-11-18T17:54:51+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -327,7 +327,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-18",
-   "status": "Asset Ready",
+   "status": "Client Content Preview",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Giyanti Breakfast",
@@ -615,13 +615,13 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-18",
-   "status": "Asset Ready",
+   "status": "Client Content Preview",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Mocha Melt",
    "link": "https://drive.google.com/file/d/1QBs7ExNpIJ70jy7UGXx5YOwnhT8CoskZ/view?usp=drive_link",
    "cover": "",
-   "caption": "",
+   "caption": "Some afternoons just call for something warm. ☕🍫\n\nThat's where our Mocha Melt comes in: chocolate and espresso from @giyanticoffee beans, smooth and creamy down to the last sip. Take your time with it.\n\n⸻\n\nSore-sore gini enaknya yang hangat. ☕🍫\n\nMocha Melt kami bikin dari cokelat dan espresso beans @giyanticoffee, lembut dan creamy sampai tegukan terakhir. Santai aja, nikmati pelan-pelan bareng orang terdekat.\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #MochaMelt #CafeJakarta",
    "tab": "26 Nov"
   },
   {

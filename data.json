@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T00:25:40+07:00",
+ "generated_at": "2026-11-20T10:04:42+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -338,7 +338,7 @@
   },
   {
    "klien": "Giyanti Coffee",
-   "tanggal": "2026-11-19",
+   "tanggal": "2026-11-20",
    "status": "Asset Ready",
    "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
@@ -350,7 +350,7 @@
   },
   {
    "klien": "Giyanti Coffee",
-   "tanggal": "2026-11-20",
+   "tanggal": "2026-11-21",
    "status": "Asset Ready",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
@@ -651,11 +651,11 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-20",
-   "status": "Asset Ready",
+   "status": "Client Content Preview",
    "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
    "judul": "Soup Buntut Andaliman",
-   "link": "",
+   "link": "https://drive.google.com/drive/folders/1uOvPd6qrsIDLHRBCps1fqMIAdqCZWh1O?usp=drive_link",
    "cover": "",
    "caption": "",
    "tab": "26 Nov"

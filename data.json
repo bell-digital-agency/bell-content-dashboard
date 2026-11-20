@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:35:41+07:00",
+ "generated_at": "2026-11-20T17:47:41+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -122,14 +122,62 @@
   },
   {
    "klien": "QJMOTOR",
-   "tanggal": "2026-11-19",
+   "tanggal": "2026-11-21",
    "status": "Ready to Post",
    "tipe": "Reels Videos",
    "platform": "Instagram",
-   "judul": "AMT Sports pt2",
-   "link": "https://drive.google.com/file/d/1XT24JOMsE5EbKHjx2xW-PHJgViezGkLH/view?usp=drive_link",
+   "judul": "Riding: SRV 250 Libero",
+   "link": "https://drive.google.com/file/d/1dBf0gRiDdKT1EFyjlRdeVCpVqsx9oN-R/view?usp=drive_link",
    "cover": "",
-   "caption": "SPORTBIKE FEEL, AUTOMATIC SHIFTING. 🏁🏍️\n\nMotor sport dengan transmisi automatic punya sensasi tersendiri! Simak pengalaman para expert rider saat mencoba QJMOTOR SRK 250 RA dengan teknologi 6-speed AMT yang menghadirkan perpindahan gigi tanpa tuas kopling manual.\n\nCould you get used to this kind of ride? Drop your thoughts below! 👇\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRK250RA #AMTTransmission",
+   "caption": "YOUR DAILY CRUISER, REIMAGINED.\n\nQJMOTOR SRV 250 LIBERO memadukan desain cruiser yang ikonik dengan teknologi AMT untuk pengalaman berkendara yang lebih praktis. Tetap tampil berkarakter saat beraktivitas sehari-hari tanpa perlu repot mengoperasikan tuas kopling manual.\n\nMake every ride effortlessly yours.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRV250LIBERO #CruiserMotorcycle",
+   "tab": "2610 - Oktober"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-21",
+   "status": "Ready to Post",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "Fort 180: Brake with Confidence",
+   "link": "https://drive.google.com/file/d/1XpxVBxI0QaP33UxGAa0r7DDQXVB3a_-g/view?usp=drive_link",
+   "cover": "",
+   "caption": "BRAKE WITH MORE CONFIDENCE.\n\nFORT 180 Adventure hadir dengan sistem pengereman ABS + TCS untuk mendukung kontrol dan stabilitas saat berkendara. Didukung rem cakram depan berukuran 240 mm, pengalaman berkendara terasa lebih terkendali dalam berbagai situasi.\n\nStay in control. Enjoy every ride.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #FORT180Adventure #ABS #TCS",
+   "tab": "2610 - Oktober"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-23",
+   "status": "Ready to Post",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "Born from track",
+   "link": "https://drive.google.com/file/d/1n_TJJgMpjLaxkWXoWaLc-RGpT_a8PQwv/view?usp=drive_link",
+   "cover": "",
+   "caption": "RACE DNA. STREET PERFORMANCE. 🏁\n\nPengalaman balap World Superbike (WSBK) menjadi inspirasi pengembangan QJMOTOR SRK 800 RR. Mulai dari Front Winglet, rem Brembo Monoblock, hingga Smart Throttle, setiap teknologi dirancang untuk menghadirkan karakter performa yang tajam dan presisi.\n\nFeel the racing DNA. Ride the SRK 800 RR.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRK800RR #WSBK",
+   "tab": "2610 - Oktober"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-23",
+   "status": "Ready to Post",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "No Worry: Service Points SRV 200 MT",
+   "link": "https://drive.google.com/file/d/1z_KFGjcM7dRbye39v5DiM-pLDfTF4umR/view?usp=drive_link",
+   "cover": "",
+   "caption": "YOUR RIDE DESERVES THE RIGHT CARE. 🔧\n\nPerawatan motor jadi lebih mudah dengan dukungan jaringan service point resmi QJMOTOR yang tersebar di seluruh Indonesia. Didukung teknisi profesional, kebutuhan servis SRV 200 MT siap ditangani agar motor tetap dalam kondisi optimal.\n\nRide easy. We've got your back.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRV200MT #QJMOTORService",
+   "tab": "2610 - Oktober"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-24",
+   "status": "Ready to Post",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "SRV 200: Your Ride, Your Rules",
+   "link": "https://drive.google.com/file/d/11sc4boIFRayeJW4aIBVgvKRZAvUawYjK/view?usp=drive_link",
+   "cover": "",
+   "caption": "YOUR BIKE. YOUR PERSONALITY.\n\nGaya berkendara bukan sekadar soal tujuan, tetapi juga tentang bagaimana kamu mengekspresikan diri. QJMOTOR SRV 200 MT hadir dengan desain minimalis dan karakter cruiser yang memberikan ruang untuk tampil sesuai gayamu.\n\nMake every ride a statement.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRV200MT #CruiserStyle",
    "tab": "2610 - Oktober"
   },
   {
@@ -262,6 +310,30 @@
    "link": "https://drive.google.com/file/d/1gznYhn_oe7EJcwGEpRoQuuyshps_KgPt/view?usp=drive_link",
    "cover": "",
    "caption": "SMARTER TECH. SMOOTHER DAILY RIDES. 🏍️\n\nDaily ride makin praktis bareng QJMOTOR FORT 250 Adventure R-Pro. Teknologi canggih dan fitur modernnya dirancang untuk bikin aktivitas berkendara terasa lebih mudah, nyaman, dan efisien.\n\nUpgrade your everyday ride.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #FORT250AdventureRPro #SmartRiding",
+   "tab": "2609 - September"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-22",
+   "status": "Ready to Post",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "SRK 250 malam",
+   "link": "https://drive.google.com/file/d/1wmmW7s8gaYJoY5FQoTg_jKK90ADj4oFU/view?usp=drive_link",
+   "cover": "",
+   "caption": "SPORTBIKE PERFORMANCE. LESS RIDING EFFORT. 🏁\n\nSensasi berkendara motor sport kini terasa lebih praktis bersama QJMOTOR SRK 250 RA. Karakter motor yang lincah dipadukan dengan teknologi AMT, memungkinkan perpindahan gigi tanpa perlu menarik tuas kopling manual.\n\nFeel the sport. Enjoy the ease.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #SRK250RA #AMTTransmission",
+   "tab": "2609 - September"
+  },
+  {
+   "klien": "QJMOTOR",
+   "tanggal": "2026-11-22",
+   "status": "Ready to Post",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Smart Navigation",
+   "link": "https://drive.google.com/file/d/1ZGU_M6CWeuAwbyhW-Y5tzHYW2wrEvHTo/view?usp=drive_link",
+   "cover": "",
+   "caption": "SCAN. CONNECT. RIDE. 🗺️\n\nNggak perlu lagi buka HP di tengah perjalanan. Dengan Smart Mirroring Navigation di QJMOTOR FORT 250 Adventure R-Pro, cukup scan QR code dan navigasi dari smartphone langsung tampil di layar TFT 7 inci.\n\nEyes on the road. Route on the dash.\n\n#QJMOTOR #QJMOTORIndonesia #AlwaysForward #FORT250AdventureRPro #SmartNavigation",
    "tab": "2609 - September"
   },
   {

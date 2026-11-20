@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:17:42+07:00",
+ "generated_at": "2026-11-20T14:41:41+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -663,7 +663,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-20",
-   "status": "Client Content Preview",
+   "status": "Ready to Post",
    "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
    "judul": "Soup Buntut Andaliman",
@@ -710,11 +710,71 @@
   },
   {
    "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-24",
+   "status": "Asset Ready",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Mikkro Breakfast",
+   "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-26",
+   "status": "Asset Ready",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "Barista Mikkro",
+   "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-27",
+   "status": "Asset Ready",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "Freshly Baked",
+   "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-28",
+   "status": "Asset Ready",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Berry Manuka",
+   "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
    "tanggal": "2026-11-28",
    "status": "Asset Ready",
    "tipe": "Threads",
    "platform": "Threads",
    "judul": "",
+   "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 Nov"
+  },
+  {
+   "klien": "Mikkro Coffee",
+   "tanggal": "2026-11-30",
+   "status": "Asset Ready",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "Mikkro Breakfast",
    "link": "",
    "cover": "",
    "caption": "",

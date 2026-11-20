@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T10:22:41+07:00",
+ "generated_at": "2026-11-20T10:52:40+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -1191,7 +1191,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-19",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Carousel Post",
    "platform": "Instagram",
    "judul": "Trends — GTA 6 rilis, Honda edition.",

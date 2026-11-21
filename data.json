@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:01:41+07:00",
+ "generated_at": "2026-11-21T08:08:42+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -123,7 +123,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-21",
-   "status": "Ready to Post",
+   "status": "Scheduled by IG",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Riding: SRV 250 Libero",
@@ -135,7 +135,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-21",
-   "status": "Ready to Post",
+   "status": "Scheduled by IG",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Fort 180: Brake with Confidence",

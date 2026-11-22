@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:07:08+07:00",
+ "generated_at": "2026-11-22T20:19:40+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -423,7 +423,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-21",
-   "status": "Asset Ready",
+   "status": "Content Revision",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Runner Giyanti",
@@ -435,13 +435,25 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-22",
-   "status": "Asset Ready",
+   "status": "Ready to Post",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Find a Dose of Giyanti at Mikkro",
    "link": "https://drive.google.com/file/d/1Z0DSZuv27PbTUjgIGUkwmsuSi0CaMY-J/view?usp=drive_link",
    "cover": "",
-   "caption": "Craving Giyanti but you're in Cipete? ☕ Every espresso shot at Mikkro starts with a dose of Giyanti beans — same roast, new address. Find your Giyanti fix at Mikkro.\n\n⸸\n\nLagi kangen Giyanti tapi posisi di Cipete? ☕ Setiap shot espresso di Mikkro dimulai dari takaran bubuk kopi beans Giyanti — rasa yang sama, di tempat yang baru. Nemuin Giyanti-mu di Mikkro aja.\n\n#GiyantiCoffeeRoastery #CafeGiyanti #CafeMenteng #MikkroEspresso #GiyantiBeans",
+   "caption": "Craving Giyanti but you're in Cipete? ☕ Every espresso shot at Mikkro starts with a dose of Giyanti beans — same roast, new address. Find your Giyanti fix at Mikkro.\n\n⸻\n\nLagi kangen Giyanti tapi posisi di Cipete? ☕ Setiap shot espresso di Mikkro dimulai dari takaran bubuk kopi beans Giyanti — rasa yang sama, di tempat yang baru. Nemuin Giyanti-mu di Mikkro aja.\n\n#GiyantiCoffeeRoastery #CafeGiyanti #CafeMenteng #MikkroEspresso #GiyantiBeans",
+   "tab": "26 November"
+  },
+  {
+   "klien": "Giyanti Coffee",
+   "tanggal": "2026-11-22",
+   "status": "Ready to Post",
+   "tipe": "Story",
+   "platform": "Instagram",
+   "judul": "Giyanti x Lazada",
+   "link": "",
+   "cover": "",
+   "caption": "",
    "tab": "26 November"
   },
   {

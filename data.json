@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T18:27:43+07:00",
+ "generated_at": "2026-11-23T19:09:41+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -435,7 +435,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-22",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Find a Dose of Giyanti at Mikkro",
@@ -447,7 +447,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-22",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Story",
    "platform": "Instagram",
    "judul": "Giyanti x Lazada",
@@ -458,7 +458,7 @@
   },
   {
    "klien": "Giyanti Coffee",
-   "tanggal": "2026-11-24",
+   "tanggal": "2026-11-25",
    "status": "Asset Ready",
    "tipe": "Reels Videos",
    "platform": "Instagram",

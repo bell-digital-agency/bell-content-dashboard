@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:56:40+07:00",
+ "generated_at": "2026-11-23T16:50:39+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -771,7 +771,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-21",
-   "status": "Asset Ready",
+   "status": "Client Content Preview",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Reels Mikkro pulang kerja 2",
@@ -783,7 +783,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-22",
-   "status": "Asset Ready",
+   "status": "Uploaded",
    "tipe": "Collab",
    "platform": "Instagram",
    "judul": "Find a Dose of Giyanti at Mikkro",

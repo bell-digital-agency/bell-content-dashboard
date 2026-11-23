@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T17:32:57+07:00",
+ "generated_at": "2026-11-23T17:51:40+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -123,7 +123,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-21",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Riding: SRV 250 Libero",
@@ -135,7 +135,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-21",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Fort 180: Brake with Confidence",
@@ -147,7 +147,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-23",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Born from track",
@@ -159,7 +159,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-23",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "No Worry: Service Points SRV 200 MT",
@@ -315,7 +315,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-22",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "SRK 250 malam",
@@ -327,7 +327,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-22",
-   "status": "Scheduled by IG",
+   "status": "Uploaded",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Smart Navigation",

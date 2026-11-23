@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T19:09:41+07:00",
+ "generated_at": "2026-11-24T01:58:43+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -375,7 +375,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-15",
-   "status": "Pending, Uploaded",
+   "status": "Canceled",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Papan daftar Kopi",
@@ -963,7 +963,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-10-22",
-   "status": "Pending, Uploaded",
+   "status": "Canceled",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Mikkro bali",

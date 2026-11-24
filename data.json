@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T02:29:42+07:00",
+ "generated_at": "2026-11-24T10:31:41+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -915,7 +915,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-17",
-   "status": "Uploaded, Pending",
+   "status": "Canceled",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Kertas warna anak\"",
@@ -963,7 +963,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-23",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Reels Mikkro pulang kerja 2",
@@ -975,7 +975,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-24",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Feed - Carousel Post",
    "platform": "Instagram",
    "judul": "Pilih Spot Ngopimu",

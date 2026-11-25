@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T12:05:50+07:00",
+ "generated_at": "2026-11-25T17:26:43+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -531,7 +531,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-20",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
    "judul": "Pome Berries Croissant",
@@ -543,7 +543,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-21",
-   "status": "Shooting",
+   "status": "Content Revision",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Runner Giyanti",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:13:44+07:00",
+ "generated_at": "2026-11-26T13:19:43+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -626,18 +626,6 @@
   },
   {
    "klien": "Giyanti Coffee",
-   "tanggal": "2026-11-29",
-   "status": "Asset Ready",
-   "tipe": "Feed - Single Post",
-   "platform": "Instagram",
-   "judul": "The Pour",
-   "link": "",
-   "cover": "",
-   "caption": "",
-   "tab": "26 November"
-  },
-  {
-   "klien": "Giyanti Coffee",
    "tanggal": "2026-11-27",
    "status": "Shooting",
    "tipe": "Feed - Carousel Post",
@@ -656,6 +644,18 @@
    "platform": "Instagram",
    "judul": "Suasana Solo",
    "link": "",
+   "cover": "",
+   "caption": "",
+   "tab": "26 November"
+  },
+  {
+   "klien": "Giyanti Coffee",
+   "tanggal": "2026-11-29",
+   "status": "Asset Ready",
+   "tipe": "Feed - Single Post",
+   "platform": "Instagram",
+   "judul": "The Pour",
+   "link": "https://drive.google.com/file/d/1Y-80eW2deHL2S8DHZmYntJdHH8T7cYml/view?usp=drive_link",
    "cover": "",
    "caption": "",
    "tab": "26 November"
@@ -1010,7 +1010,7 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-25",
+   "tanggal": "2026-11-26",
    "status": "Client Content Preview",
    "tipe": "Reels Videos",
    "platform": "Instagram",
@@ -1022,19 +1022,19 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-26",
+   "tanggal": "2026-11-27",
    "status": "Client Content Preview",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Barista Mikkro",
    "link": "https://drive.google.com/file/d/1V6d1dIzlBe5usFdLuTupL2jLJPCsniLg/view?usp=drive_link",
    "cover": "",
-   "caption": "",
+   "caption": "Good coffee needs good beans, and good hands. ☕🤎\n\nEvery cup at Mikkro is made by our skilled baristas, using beans from @giyanticoffee. From the first shot to the steamed milk, nothing is rushed.\n\n⸻\n\nKopi enak butuh beans yang baik, dan tangan yang tepat. ☕🤎\n\nSetiap cangkir di Mikkro diracik barista kami yang handal, pakai beans dari @giyanticoffee. Dari shot pertama sampai susunya, semua dibuat dengan teliti.\n\n#MikkroEspresso #byGiyantiCoffeeRoastery #BaristaLife #CafeCipete",
    "tab": "26 Nov"
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-27",
+   "tanggal": "2026-11-28",
    "status": "Asset Ready",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
@@ -1046,7 +1046,7 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-28",
+   "tanggal": "2026-11-29",
    "status": "Asset Ready",
    "tipe": "Reels Videos",
    "platform": "Instagram",

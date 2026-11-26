@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:19:43+07:00",
+ "generated_at": "2026-11-26T13:31:40+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -183,7 +183,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-29",
-   "status": "Ready to Post",
+   "status": "Ready to Post, Scheduled by IG",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "No Worry: Fort 180",
@@ -195,7 +195,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-28",
-   "status": "Ready to Post",
+   "status": "Ready to Post, Scheduled by IG",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "AMT Sports pt2",
@@ -339,7 +339,7 @@
   {
    "klien": "QJMOTOR",
    "tanggal": "2026-11-27",
-   "status": "Ready to Post",
+   "status": "Ready to Post, Scheduled by IG",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Viento 180: Street Presence",

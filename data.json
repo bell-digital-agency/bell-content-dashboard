@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T11:43:41+07:00",
+ "generated_at": "2026-11-26T11:49:42+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -567,7 +567,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-25",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Story",
    "platform": "Instagram",
    "judul": "Hari Guru",
@@ -579,7 +579,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-25",
-   "status": "Asset Ready",
+   "status": "Uploaded",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Shakshouka",
@@ -1491,7 +1491,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-17",
-   "status": "Footage Upload",
+   "status": "Footage Upload, Uploaded",
    "tipe": "TikTok Videos",
    "platform": "TikTok",
    "judul": "Cara Berkendara / Safety Riding / Cari Aman — Bahaya Menyelip dari Kiri",
@@ -1719,7 +1719,7 @@
   {
    "klien": "Honda NTB",
    "tanggal": "2026-11-25",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "CB150X — Greeting Hari Guru Nasional",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:05:42+07:00",
+ "generated_at": "2026-11-26T10:55:42+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -531,7 +531,7 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-21",
-   "status": "Content Revision",
+   "status": "Client Content Preview",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Runner Giyanti",
@@ -963,7 +963,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-25",
-   "status": "Ready to Post",
+   "status": "Uploaded",
    "tipe": "Story",
    "platform": "Instagram",
    "judul": "Hari Guru",

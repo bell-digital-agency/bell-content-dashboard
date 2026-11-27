@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:11:43+07:00",
+ "generated_at": "2026-11-27T14:41:43+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -639,10 +639,10 @@
   {
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-28",
-   "status": "Shooting",
-   "tipe": "Feed - Combination of Photo & Video",
+   "status": "Asset Ready",
+   "tipe": "Reels Videos",
    "platform": "Instagram",
-   "judul": "Suasana Solo",
+   "judul": "Reels 1 - Next Stop, Solo",
    "link": "",
    "cover": "",
    "caption": "",
@@ -664,9 +664,9 @@
    "klien": "Giyanti Coffee",
    "tanggal": "2026-11-30",
    "status": "Shooting",
-   "tipe": "Reels Videos",
+   "tipe": "Feed - Combination of Photo & Video",
    "platform": "Instagram",
-   "judul": "Reels 1 - Next Stop, Solo",
+   "judul": "Suasana Solo",
    "link": "",
    "cover": "",
    "caption": "",
@@ -1011,7 +1011,7 @@
   {
    "klien": "Mikkro Coffee",
    "tanggal": "2026-11-26",
-   "status": "Client Content Preview",
+   "status": "Ready to Post",
    "tipe": "Reels Videos",
    "platform": "Instagram",
    "judul": "Mikkro Breakfast",

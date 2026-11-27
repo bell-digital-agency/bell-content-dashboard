@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:18:46+07:00",
+ "generated_at": "2026-11-27T15:37:45+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -1046,11 +1046,11 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-29",
+   "tanggal": "2026-11-28",
    "status": "Asset Ready",
-   "tipe": "Reels Videos",
-   "platform": "Instagram",
-   "judul": "Berry Manuka",
+   "tipe": "Threads",
+   "platform": "Threads",
+   "judul": "",
    "link": "",
    "cover": "",
    "caption": "",
@@ -1058,11 +1058,11 @@
   },
   {
    "klien": "Mikkro Coffee",
-   "tanggal": "2026-11-28",
+   "tanggal": "2026-11-29",
    "status": "Asset Ready",
-   "tipe": "Threads",
-   "platform": "Threads",
-   "judul": "",
+   "tipe": "Reels Videos",
+   "platform": "Instagram",
+   "judul": "Berry Manuka",
    "link": "",
    "cover": "",
    "caption": "",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T12:23:43+07:00",
+ "generated_at": "2026-11-27T12:41:43+07:00",
  "clients": {
   "QJMOTOR": "https://docs.google.com/spreadsheets/d/13vyY4sw7Vh6Rs1D8GM-HstMfHKRbuZjjVzOvgkN1yxw/edit",
   "Giyanti Coffee": "https://docs.google.com/spreadsheets/d/1Mk1fkzEzkMLkvZ53GTyAga3SQRFMSOzUaIGtIlGr9OE/edit",
@@ -1311,7 +1311,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-19",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "TikTok Video",
    "platform": "TikTok",
    "judul": "",
@@ -1323,7 +1323,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-24",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "Feed - Single Post",
    "platform": "Instagram",
    "judul": "Andalan Barista di Cafe",
@@ -1335,7 +1335,7 @@
   {
    "klien": "Marvel",
    "tanggal": "2026-11-30",
-   "status": "",
+   "status": "Uploaded",
    "tipe": "TikTok Video",
    "platform": "TikTok",
    "judul": "",

@@ -3,111 +3,175 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Bell — Jadwal Upload</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0b0e13;
-    --card: #141922;
-    --border: #232b3a;
-    --text: #e6e9ef;
-    --muted: #8b93a3;
-    --accent: #8b7cff;
+    color-scheme: light;
+    --bg: #F2ECDD;
+    --dot: rgba(26,26,26,.055);
+    --ink: #1a1a1a;
+    --card: #fffdf6;
+    --border: #1a1a1a;
+    --text: #1a1a1a;
+    --muted: #6b6558;
+    --accent: #E8A33D;
+    --accent-ink: #1a1a1a;
+    --border-w: 2.5px;
+    --radius: 16px;
+    --shadow: none;
+    --st0-bg:#C7D9B4; --st0-fg:#1f3a12;
+    --st1-bg:#BFD3E0; --st1-fg:#10324a;
+    --st2-bg:#F2D27C; --st2-fg:#4a3406;
+    --st3-bg:#EFB2A6; --st3-fg:#5c1a10;
+    --st4-bg:#E7E1CF; --st4-fg:#4a4432;
+    --st9-bg:#E3E0D6; --st9-fg:#555;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #171510;
+    --dot: rgba(244,239,225,.045);
+    --ink: #F4EFE1;
+    --card: #211e16;
+    --border: #F4EFE1;
+    --text: #F4EFE1;
+    --muted: #a49c87;
+    --accent: #E8A33D;
+    --accent-ink: #1a1a1a;
+    --st0-bg:#2c3b20; --st0-fg:#c7d9b4;
+    --st1-bg:#1c3042; --st1-fg:#bfd3e0;
+    --st2-bg:#4a3c17; --st2-fg:#f2d27c;
+    --st3-bg:#4a241d; --st3-fg:#efb2a6;
+    --st4-bg:#33301f; --st4-fg:#d8d2bb;
+    --st9-bg:#2a271e; --st9-fg:#a49c87;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    background: var(--bg);
+    background-color: var(--bg);
+    background-image: radial-gradient(var(--dot) 1.4px, transparent 1.4px);
+    background-size: 18px 18px;
     color: var(--text);
-    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font: 15px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
     min-height: 100vh;
+    transition: background-color .15s, color .15s;
   }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 16px 16px 40px; }
+  h1,h2,h3, .brand, .daylabel, .judul, .client span, .flabel, .pill, button, .epbtn, .stamp {
+    font-family: "Space Grotesk", "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 16px 16px 48px; }
   header {
     position: sticky; top: 0; z-index: 5;
-    background: rgba(11,14,19,.92); backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+    border-bottom: var(--border-w) solid var(--border);
   }
-  header .inner { max-width: 680px; margin: 0 auto; padding: 12px 16px; }
-  .brand { font-weight: 700; letter-spacing: .08em; font-size: 13px; color: var(--accent); }
-  .brand span { color: var(--text); letter-spacing: 0; margin-left: 6px; font-weight: 600; }
-  .datebar { display: flex; align-items: center; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  header .inner { max-width: 680px; margin: 0 auto; padding: 14px 16px; }
+  .topline { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .brand {
+    font-weight: 700; letter-spacing: .01em; font-size: 17px; color: var(--ink);
+    text-transform: uppercase; display: flex; align-items: baseline; gap: 7px;
+  }
+  .brand span {
+    background: var(--accent); color: var(--accent-ink);
+    border: var(--border-w) solid var(--border); border-radius: 999px;
+    padding: 2px 10px; font-size: 12px; letter-spacing: .03em;
+  }
+  .themebtn {
+    width: 36px; height: 36px; border-radius: 10px;
+    border: var(--border-w) solid var(--border); background: var(--card); color: var(--ink);
+    font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .themebtn:active { transform: translateY(1px); }
+  .datebar { display: flex; align-items: center; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
   .datebar input[type=date] {
     flex: 1; min-width: 0; background: var(--card); color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
-    font: inherit; color-scheme: dark;
+    border: var(--border-w) solid var(--border); border-radius: 10px; padding: 9px 10px;
+    font: 600 14px "Inter", sans-serif; color-scheme: inherit;
   }
   .datebar button {
-    background: var(--card); color: var(--text); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 12px; font: inherit; cursor: pointer;
+    background: var(--card); color: var(--ink); border: var(--border-w) solid var(--border);
+    border-radius: 10px; padding: 9px 13px; font: 600 14px "Space Grotesk", sans-serif; cursor: pointer;
+    min-width: 44px; min-height: 40px;
   }
-  .datebar button:hover { border-color: var(--accent); color: var(--accent); }
-  #today { background: var(--accent); border-color: var(--accent); color: #0b0e13; font-weight: 600; }
-  #today:hover { opacity: .85; color: #0b0e13; }
-  .daylabel { margin: 18px 0 6px; font-weight: 600; font-size: 16px; }
+  .datebar button:active { transform: translateY(1px); }
+  #today { background: var(--accent); border-color: var(--border); color: var(--accent-ink); font-weight: 700; }
+  .daylabel { margin: 20px 0 6px; font-weight: 700; font-size: 19px; text-transform: uppercase; letter-spacing: .01em; }
   .summaryrow { display: flex; justify-content: space-between; align-items: baseline;
-                gap: 10px; margin: 0 0 14px; }
-  #summary { color: var(--muted); font-size: 13px; margin: 0; }
+                gap: 10px; margin: 0 0 16px; }
+  #summary { color: var(--muted); font-size: 13px; margin: 0; font-weight: 500; }
   #lastupd { color: var(--muted); font-size: 12px; white-space: nowrap; }
-  .client { margin: 18px 0 10px; font-weight: 700; font-size: 13px; text-transform: uppercase;
-            letter-spacing: .06em; color: var(--accent);
-            display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .client {
+    margin: 22px 0 10px; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    border: var(--border-w) solid var(--border); border-radius: 12px;
+    padding: 9px 14px; background: var(--client-color, var(--accent));
+  }
+  .client span {
+    font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--client-ink, var(--accent-ink));
+  }
   .epbtn {
-    font-size: 11.5px; font-weight: 500; letter-spacing: .02em; text-transform: none;
-    color: var(--muted); border: 1px solid var(--border); border-radius: 6px;
-    padding: 3px 9px; text-decoration: none; white-space: nowrap;
+    font-size: 11.5px; font-weight: 700; letter-spacing: .01em; text-transform: none;
+    color: var(--client-ink, var(--accent-ink)); border: 1.5px solid var(--client-ink, var(--accent-ink));
+    border-radius: 999px; padding: 3px 10px; text-decoration: none; white-space: nowrap;
+    background: rgba(255,255,255,.28);
   }
-  .epbtn:hover { border-color: var(--accent); color: var(--accent); }
   .card {
-    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 14px; margin-bottom: 10px;
+    background: var(--card); border: var(--border-w) solid var(--border); border-radius: var(--radius);
+    padding: 15px; margin-bottom: 14px;
   }
-  .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
   .pill {
-    font-size: 11.5px; padding: 3px 9px; border-radius: 999px;
-    border: 1px solid var(--border); color: var(--muted);
+    font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px;
+    border: 1.5px solid var(--border); color: var(--text); text-transform: uppercase; letter-spacing: .02em;
   }
-  .pill.platform { color: var(--text); border-color: #3a4660; }
-  .st-0 { color: #22c55e; border-color: #1d4d33; }   /* aired */
-  .st-1 { color: #3b82f6; border-color: #1e3a5f; }   /* ready */
-  .st-2 { color: #f59e0b; border-color: #4a3a12; }   /* preview/acc */
-  .st-3 { color: #ef4444; border-color: #4a2020; }   /* revision */
-  .st-4 { color: #94a3b8; }                          /* production */
-  .st-9 { color: #64748b; }                          /* kosong */
-  .judul { font-weight: 600; font-size: 20px; line-height: 1.35; margin: 0 0 4px; }
-  .field { margin-top: 12px; }
+  .pill.platform { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .st-0 { background: var(--st0-bg); color: var(--st0-fg); border-color: var(--st0-fg); }
+  .st-1 { background: var(--st1-bg); color: var(--st1-fg); border-color: var(--st1-fg); }
+  .st-2 { background: var(--st2-bg); color: var(--st2-fg); border-color: var(--st2-fg); }
+  .st-3 { background: var(--st3-bg); color: var(--st3-fg); border-color: var(--st3-fg); }
+  .st-4 { background: var(--st4-bg); color: var(--st4-fg); border-color: var(--st4-fg); }
+  .st-9 { background: var(--st9-bg); color: var(--st9-fg); border-color: var(--st9-fg); }
+  .judul { font-weight: 700; font-size: 19px; line-height: 1.3; margin: 0 0 4px; }
+  .field { margin-top: 13px; }
   .flabel {
-    font-size: 11.5px; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .05em; color: var(--muted); margin-bottom: 3px;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .04em; color: var(--muted); margin-bottom: 4px;
     display: flex; align-items: center; justify-content: space-between; gap: 8px;
   }
   .rawlink {
-    color: var(--accent); text-decoration: none; font-size: 13px;
+    color: var(--text); text-decoration: underline; text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px; font-size: 13px; font-family: "Inter", sans-serif;
     word-break: break-all; line-height: 1.5;
   }
-  .rawlink:hover { text-decoration: underline; }
-  .filechip { font-size: 13px; color: var(--muted); word-break: break-all; line-height: 1.5; }
+  .filechip { font-size: 13px; color: var(--muted); word-break: break-all; line-height: 1.5; font-family: "Inter", sans-serif; }
   .captext {
-    white-space: pre-wrap; word-break: break-word; font-size: 13.5px;
+    white-space: pre-wrap; word-break: break-word; font-size: 13.5px; font-family: "Inter", sans-serif;
     line-height: 1.6; color: var(--text);
   }
   .copy {
-    background: none; color: var(--muted); border: 1px solid var(--border);
-    border-radius: 6px; padding: 2px 9px; font: inherit; font-size: 11.5px;
-    cursor: pointer; white-space: nowrap; letter-spacing: 0; text-transform: none;
-    font-weight: 500;
+    background: var(--card); color: var(--text); border: 1.5px solid var(--border);
+    border-radius: 999px; padding: 3px 11px; font: 700 11px "Space Grotesk", sans-serif;
+    cursor: pointer; white-space: nowrap; text-transform: uppercase; letter-spacing: .02em;
   }
-  .copy:hover { border-color: var(--accent); color: var(--accent); }
-  .copy.ok { color: #22c55e; border-color: #1d4d33; }
-  .empty { color: var(--muted); padding: 30px 0; text-align: center; }
+  .copy.ok { background: var(--st0-bg); color: var(--st0-fg); border-color: var(--st0-fg); }
+  .empty { color: var(--muted); padding: 34px 16px; text-align: center; border: var(--border-w) dashed var(--border); border-radius: var(--radius); font-weight: 500; }
   .empty b { color: var(--text); }
-  footer { color: var(--muted); font-size: 12px; margin-top: 26px; text-align: center; }
-  #unsched { margin-top: 26px; }
-  #unsched h3 { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  footer { color: var(--muted); font-size: 12px; margin-top: 30px; text-align: center; }
+  #unsched { margin-top: 30px; }
+  #unsched h3 { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
 </style>
 </head>
 <body>
 <header><div class="inner">
-  <div class="brand">BELL<span>Jadwal Upload</span></div>
+  <div class="topline">
+    <div class="brand">BELL<span>Jadwal Upload</span></div>
+    <button class="themebtn" id="themebtn" aria-label="Ganti tema" title="Ganti tema">🌙</button>
+  </div>
   <div class="datebar">
     <button id="prev" aria-label="sebelumnya">‹</button>
     <input type="date" id="pick">
@@ -127,6 +191,54 @@
 const HARI = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
 const BULAN = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
 const $ = id => document.getElementById(id);
+
+// --- tema terang/gelap ---
+const THEME_KEY = "bell-dash-theme";
+function applyTheme(t) {
+  document.documentElement.setAttribute("data-theme", t);
+  $("themebtn").textContent = t === "dark" ? "☀️" : "🌙";
+  localStorage.setItem(THEME_KEY, t);
+}
+(function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const sys = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  applyTheme(saved || sys);
+})();
+$("themebtn").addEventListener("click", () => {
+  const cur = document.documentElement.getAttribute("data-theme");
+  applyTheme(cur === "dark" ? "light" : "dark");
+});
+
+// --- warna per klien (brutalist palette, dipilih biar kontras & konsisten) ---
+const CLIENT_PALETTE = [
+  { bg: "#E8A33D", ink: "#1a1a1a" }, // mustard
+  { bg: "#A3A86B", ink: "#1a1a1a" }, // olive
+  { bg: "#D98B63", ink: "#1a1a1a" }, // terracotta
+  { bg: "#8FB3C2", ink: "#1a1a1a" }, // dusty blue
+  { bg: "#9FB37E", ink: "#1a1a1a" }, // sage
+  { bg: "#C9A8D9", ink: "#1a1a1a" }, // plum
+  { bg: "#E0C14A", ink: "#1a1a1a" }, // gold
+  { bg: "#D99BA6", ink: "#1a1a1a" }, // dusty rose
+  { bg: "#8FA3C2", ink: "#1a1a1a" }, // steel blue
+];
+const CLIENT_FIXED = {
+  "QJMOTOR": CLIENT_PALETTE[0],
+  "Giyanti Coffee": CLIENT_PALETTE[1],
+  "Mikkro Coffee": CLIENT_PALETTE[2],
+  "Marvel": CLIENT_PALETTE[3],
+  "Honda NTB": CLIENT_PALETTE[8],
+  "Honda Bali": CLIENT_PALETTE[8],
+  "TikTok Astra": CLIENT_PALETTE[5],
+  "Socmed Bell": CLIENT_PALETTE[4],
+  "Borobudur Park": CLIENT_PALETTE[6],
+  "Prambanan Park": CLIENT_PALETTE[7],
+};
+function clientColor(name) {
+  if (CLIENT_FIXED[name]) return CLIENT_FIXED[name];
+  let h = 0;
+  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+  return CLIENT_PALETTE[h % CLIENT_PALETTE.length];
+}
 
 function wibISO(d) {
   const t = new Date(d.getTime() + 7 * 3600e3); // geser ke WIB lalu ambil komponen UTC
@@ -185,6 +297,11 @@ function epBtn(k) {
   return u ? `<a class="epbtn" href="${esc(u)}" target="_blank" rel="noopener">Buka EP ↗</a>` : "";
 }
 
+function clientHeader(k) {
+  const c = clientColor(k);
+  return `<div class="client" style="--client-color:${c.bg};--client-ink:${c.ink}"><span>${esc(k)}</span>${epBtn(k)}</div>`;
+}
+
 function render() {
   const items = DATA.items.filter(i => i.tanggal === current);
   $("daylabel").textContent = fmtHari(current);
@@ -200,7 +317,7 @@ function render() {
 
   let h = "";
   for (const k of Object.keys(groups)) {
-    h += `<div class="client"><span>${esc(k)}</span>${epBtn(k)}</div>`;
+    h += clientHeader(k);
     for (const it of groups[k]) {
       h += `<div class="card">`;
       h += `<div class="pills">`;
@@ -228,7 +345,7 @@ function render() {
     for (const it of uns) (by[it.klien] = by[it.klien] || []).push(it);
     let uh = `<h3>Belum terjadwal (${uns.length})</h3>`;
     for (const k of Object.keys(by)) {
-      uh += `<div class="client"><span>${esc(k)}</span>${epBtn(k)}</div>`;
+      uh += clientHeader(k);
       for (const it of by[k]) {
         uh += `<div class="card"><div class="pills">`;
         uh += `<span class="pill platform">${esc(it.platform || "—")}</span>`;

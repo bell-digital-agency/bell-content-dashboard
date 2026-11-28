@@ -33,7 +33,7 @@
   :root[data-theme="dark"] {
     color-scheme: dark;
     --bg: #171510;
-    --dot: rgba(244,239,225,.045);
+    --dot: rgba(244,239,225,.10);
     --ink: #F4EFE1;
     --card: #211e16;
     --border: #F4EFE1;
@@ -82,10 +82,15 @@
   }
   .themebtn {
     width: 36px; height: 36px; border-radius: 10px;
-    border: var(--border-w) solid var(--border); background: var(--card); color: var(--ink);
-    font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
+    border: var(--border-w) solid var(--border); cursor: pointer; display: flex;
+    align-items: center; justify-content: center; flex-shrink: 0;
+    background: var(--ink); color: var(--bg);
   }
+  :root[data-theme="dark"] .themebtn { background: var(--text); color: var(--bg); }
+  .themebtn svg { width: 18px; height: 18px; stroke: currentColor; }
+  .themebtn .i-sun { display: none; }
+  :root[data-theme="dark"] .themebtn .i-moon { display: none; }
+  :root[data-theme="dark"] .themebtn .i-sun { display: block; }
   .themebtn:active { transform: translateY(1px); }
   .datebar { display: flex; align-items: center; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
   .datebar input[type=date] {
@@ -118,8 +123,9 @@
     font-size: 11.5px; font-weight: 700; letter-spacing: .01em; text-transform: none;
     color: var(--client-ink, var(--accent-ink)); border: 1.5px solid var(--client-ink, var(--accent-ink));
     border-radius: 999px; padding: 3px 10px; text-decoration: none; white-space: nowrap;
-    background: rgba(255,255,255,.28);
+    background: rgba(255,255,255,.28); display: inline-flex; align-items: center; gap: 4px;
   }
+  .epbtn svg { width: 12px; height: 12px; stroke: currentColor; flex-shrink: 0; }
   .card {
     background: var(--card); border: var(--border-w) solid var(--border); border-radius: var(--radius);
     padding: 15px; margin-bottom: 14px;
@@ -170,7 +176,10 @@
 <header><div class="inner">
   <div class="topline">
     <div class="brand">BELL<span>Jadwal Upload</span></div>
-    <button class="themebtn" id="themebtn" aria-label="Ganti tema" title="Ganti tema">🌙</button>
+    <button class="themebtn" id="themebtn" aria-label="Ganti tema" title="Ganti tema">
+      <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
   </div>
   <div class="datebar">
     <button id="prev" aria-label="sebelumnya">‹</button>
@@ -196,7 +205,6 @@ const $ = id => document.getElementById(id);
 const THEME_KEY = "bell-dash-theme";
 function applyTheme(t) {
   document.documentElement.setAttribute("data-theme", t);
-  $("themebtn").textContent = t === "dark" ? "☀️" : "🌙";
   localStorage.setItem(THEME_KEY, t);
 }
 (function initTheme() {
@@ -292,9 +300,10 @@ function fieldLinks(cell, label) {
   return `<div class="field"><div class="flabel">${esc(label)} ${copyBtn}</div>${body}</div>`;
 }
 
+const EXTLINK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>`;
 function epBtn(k) {
   const u = DATA && DATA.clients && DATA.clients[k];
-  return u ? `<a class="epbtn" href="${esc(u)}" target="_blank" rel="noopener">Buka EP ↗</a>` : "";
+  return u ? `<a class="epbtn" href="${esc(u)}" target="_blank" rel="noopener">Buka EP ${EXTLINK_SVG}</a>` : "";
 }
 
 function clientHeader(k) {
